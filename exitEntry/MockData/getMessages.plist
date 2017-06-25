@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>creator</key>
+		<string>系统管理员</string>
+		<key>content</key>
+		<string>您的入境资料已经成功提交</string>
+		<key>createDate</key>
+		<string>2017-03-19T09:29:27Z</string>
+	</dict>
+	<dict>
+		<key>creator</key>
+		<string>系统管理员</string>
+		<key>content</key>
+		<string>您的入境资料已经递交审核</string>
+		<key>createDate</key>
+		<string>2017-03-21T13:01:27Z</string>
+	</dict>
+	<dict>
+		<key>creator</key>
+		<string>系统管理员</string>
+		<key>content</key>
+		<string>您的入境资料已经通过审核</string>
+		<key>createDate</key>
+		<string>2017-03-22T11:54:27Z</string>
+	</dict>
+	<dict>
+		<key>creator</key>
+		<string>系统管理员</string>
+		<key>content</key>
+		<string>您的境内电子身份凭证已经颁发，请前往我的证书页面下载凭证照片副本</string>
+		<key>createDate</key>
+		<string>2017-03-22T12:32:27Z</string>
+	</dict>
+	<dict>
+		<key>creator</key>
+		<string>房山旅游网</string>
+		<key>content</key>
+		<string>六渡村位于十渡镇政府东南方向，相距13华里，全村142户，436人。六渡村是通往十渡的旅游窗口，是十渡风景区的第一中心，有150米长的橡胶坝立于六渡宽阔的水面上，景观优新，形成了碧波水上游乐园，吃住一体化，是游客的好去处。北与石人峰景区相邻，西与孤山寨景区相近，地理位置优越，马路两旁边树木成荫，更是游客青睐的地方</string>
+		<key>createDate</key>
+		<string>2017-03-23T15:00:27Z</string>
+	</dict>
+</array>
+</plist>

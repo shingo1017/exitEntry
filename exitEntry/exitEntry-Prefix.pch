@@ -1,0 +1,200 @@
+//
+// Prefix header for all source files of the 'Motilink' target in the 'Motilink' project
+//
+
+#import <Availability.h>
+
+//#define Server_URL  @"http://www.guibenchuxin.com:7070/"
+#define Server_URL  @"http://106.39.33.2:7070/"
+
+/***** Path *****/
+#define SHARED_APPLICATION  (AppDelegate *)[UIApplication sharedApplication].delegate
+#define DOCUMENT_PATH [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory,NSUserDomainMask,YES) objectAtIndex:0]
+#define FILE_BUNDLE_PATH(fileName) [NSString stringWithFormat:@"%@/%@", [[NSBundle mainBundle] resourcePath], fileName]
+#define FILE_SENDBOX_PATH(fileName) [NSString stringWithFormat:@"%@/%@", DOCUMENT_PATH, fileName]
+
+#define PHONENUMBER                     [[NSUserDefaults standardUserDefaults] objectForKey:@"phoneNumber"]
+#define SET_PHONENUMBER(phoneNumber)    [[NSUserDefaults standardUserDefaults] setObject:phoneNumber forKey:@"phoneNumber"];[[NSUserDefaults standardUserDefaults] synchronize];
+#define PASSWORD                     [[NSUserDefaults standardUserDefaults] objectForKey:@"password"]
+#define SET_PASSWORD(password)    [[NSUserDefaults standardUserDefaults] setObject:password forKey:@"password"];
+#define INFO_ID                     [[NSUserDefaults standardUserDefaults] objectForKey:@"infoId"]
+#define SET_INFO_ID(infoId)    [[NSUserDefaults standardUserDefaults] setObject:infoId forKey:@"infoId"];
+
+#define MAIN_NAVIGATIONCONTROLLER ((AppDelegate *)[UIApplication sharedApplication].delegate).mainNavigationController
+#define MAIN_TABBARCONTROLLER ((AppDelegate *)[UIApplication sharedApplication].delegate).mainTabBarController
+
+#define SCREEN_WIDTH                    [UIScreen mainScreen].bounds.size.width
+#define SCREEN_HEIGHT                   [UIScreen mainScreen].bounds.size.height
+
+#define IS_IPHONE (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone)
+#define IS_IPHONE_5 (IS_IPHONE && SCREEN_HEIGHT == 568.0)
+#define IS_IPHONE_6 (IS_IPHONE && SCREEN_HEIGHT == 667.0)
+#define IS_IPHONE_6P (IS_IPHONE && SCREEN_HEIGHT == 736.0)
+
+#define STATUS_BAR_HEIGHT               20.0f   //状态栏高度
+#define NAVIGATIONBAR_HEIGHT            64.0f   //导航栏高度
+#define TAB_BAR_HEIGHT                  50.0f   //Tab栏高度
+#define TEXT_SPACING_FOR_LINE           6.0f
+
+#define text(key) [(AppDelegate *)[[UIApplication sharedApplication] delegate] showText:(key)]
+#define rgba(r, g, b, a) [UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:a]
+#define int2String(para)  [NSString stringWithFormat:@"%i", (int)para]
+#define float02String(float)  [NSString stringWithFormat:@"%.0f", float]
+
+#define floatByScale(float) (int)(float * (SCREEN_WIDTH/375))
+
+#define kFontSizeTitle          13
+#define kFontSizeSummary        11
+#define kFontSizeFootnote       13
+#define kFontSizeHeadline       17
+#define kFontSizeSubheadline    15
+
+#define MODEL_BACKGROUND_COLOR  rgba(0,0,0,0.5)
+#define BACKGROUND_COLOR        rgba(244,244,249,1)
+#define BORDER_COLOR            rgba(215,215,215,1)
+#define TITLE_COLOR             rgba(51,51,51,1)
+#define SUMMARY_COLOR           rgba(90,90,90,1)
+#define PLACEHOLDER_COLOR       rgba(180,180,180,1)
+#define MAIN_COLOR              rgba(47,69,80,1)
+#define MAIN2_COLOR              rgba(88,111,124, 1)
+#define MAIN3_COLOR              rgba(184,219,217, 1)
+
+
+#define NETWORK     [AFNetworkReachabilityManager sharedManager].networkReachabilityStatus != AFNetworkReachabilityStatusNotReachable
+
+#define K_SHOULD_SHOW_LOGIN_NOTIFICATION                    @"k_ShouldShowLoginNotification"
+#define K_DID_LOGIN_NOTIFICATION                            @"k_DidLoginNotification"
+#define K_SHOULD_RELOAD_DATA_NOTIFICATION                     @"k_ShouldReloadDataNotification"
+#define K_SHOULD_RELOAD_STATUS_NOTIFICATION                     @"k_ShouldReloadStautsNotification"
+#define K_SHOULD_DISMISS_KEYBOARD_NOTIFICATION              @"k_ShouldDismissKeyboardNotification"
+#define K_DID_CHANGE_LANGUAGE_NOTIFICATION                  @"k_DidChangeLanguageNotification"
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+
+    #import <SystemConfiguration/SystemConfiguration.h>
+    #import <AFNetworking/AFNetworking.h>
+
+    #import "UIView+Extend.h"
+    #import "UIStoryboard+Additions.h"
+    #import "NSString+Additions.h"
+    #import "NSDate+Additions.h"
+    #import "JSONValueTransformer+DateTransformer.h"
+
+    #import "AppDelegate.h"
+    #import "MainTabBarController.h"
+
+    #import "MBProgressHUD+Add.h"
+    #import "UIImageView+WebCache.h"
+    #import "UIButton+WebCache.h"
+    #import "BaseViewController.h"
+    #import "User.h"
+    #import "Dictionary.h"
+
+    #import "MJRefreshNormalHeader.h"
+    #import "MJRefreshBackNormalFooter.h"
+
+#endif
+
+#define _AFNETWORKING_ALLOW_INVALID_SSL_CERTIFICATES_ 1
+
+//#define kStatusBarHeight 20
+//#define kDefaultToolbarHeight 40
+//#define kKeyboardHeightPortrait 216
+//#define kKeyboardHeightLandscape 140
+
+// Log
+//#ifdef DEBUG
+//#define NSLog(fmt, ...) {NSLog((@"%s[Line %d] \n" fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__);[[NSString stringWithFormat:@"\n%s[Line %d] \n", __PRETTY_FUNCTION__, __LINE__] writeToLog];}
+//#else
+//#define NSLog(...)
+//#endif
+
+//simple threading
+#define AsyncBlock(...) dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{ __VA_ARGS__ })
+#define SyncBlock(...) dispatch_sync(dispatch_get_main_queue(), ^{ __VA_ARGS__ })
+
+//
+#define SuppressPerformSelectorLeakWarning(Stuff) \
+do { \
+    _Pragma("clang diagnostic push") \
+    _Pragma("clang diagnostic ignored \"-Warc-performSelector-leaks\"") \
+    Stuff; \
+    _Pragma("clang diagnostic pop") \
+} while (0)
+
+//force convert int
+#define CGRectMakeInt(x, y, w, h)                      CGRectMake((int)(x), (int)(y), (int)(w), (int)(h))
+#define CGPointMakeInt(x, y)                           CGPointMake((int)(x), (int)(y))
+#define CGSizeMakeInt(w, h)                            CGSizeMake((int)(w), (int)(h))
+#define UIEdgeInsetsMakeInt(top, left, bottom, right)  UIEdgeInsetsMake((int)(top), (int)(left), (int)(bottom), (int)(right))
+
+
+//HTML
+#define TEXTVIEW_SET_HTML_TEXT(__textView__, __text__)\
+do\
+{\
+    SuppressPerformSelectorLeakWarning(\
+        if ([__textView__ respondsToSelector: NSSelectorFromString(@"setContentToHTMLString:")])\
+            [__textView__ performSelector: NSSelectorFromString(@"setContentToHTMLString:") withObject: __text__];\
+        else\
+            __textView__.text = __text__;\
+    );\
+} while (0)
+
+#define TEXTVIEW_GET_HTML_TEXT(__textView__, __text__)\
+do\
+{\
+    SuppressPerformSelectorLeakWarning(\
+        if ([__textView__ respondsToSelector: NSSelectorFromString(@"contentToHTMLString")])\
+            __text__ = [__textView__ performSelector: NSSelectorFromString(@"contentToHTMLString") withObject: nil];\
+        else\
+            __text__ = __textView__.text;\
+    );\
+} while (0)
+
+/***** Tools *****/
+#ifndef    weakify
+#if __has_feature(objc_arc)
+
+#define weakify( x ) \
+_Pragma("clang diagnostic push") \
+_Pragma("clang diagnostic ignored \"-Wshadow\"") \
+autoreleasepool{} __weak __typeof__(x) __weak_##x##__ = x; \
+_Pragma("clang diagnostic pop")
+
+#else
+
+#define weakify( x ) \
+_Pragma("clang diagnostic push") \
+_Pragma("clang diagnostic ignored \"-Wshadow\"") \
+autoreleasepool{} __block __typeof__(x) __block_##x##__ = x; \
+_Pragma("clang diagnostic pop")
+
+#endif
+#endif
+
+#ifndef    strongify
+#if __has_feature(objc_arc)
+
+#define strongify( x ) \
+_Pragma("clang diagnostic push") \
+_Pragma("clang diagnostic ignored \"-Wshadow\"") \
+try{} @finally{} __typeof__(x) x = __weak_##x##__; \
+_Pragma("clang diagnostic pop")
+
+#else
+
+#define strongify( x ) \
+_Pragma("clang diagnostic push") \
+_Pragma("clang diagnostic ignored \"-Wshadow\"") \
+try{} @finally{} __typeof__(x) x = __block_##x##__; \
+_Pragma("clang diagnostic pop")
+
+#endif
+#endif

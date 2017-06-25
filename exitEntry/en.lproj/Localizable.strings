@@ -1,0 +1,183 @@
+/* 
+  Localizable.strings
+  exitEntry
+
+  Created by 尹楠 on 17/3/16.
+  Copyright © 2017年 尹楠. All rights reserved.
+*/
+
+"房山出入境" = "Fangshan Exit-Entry Administration";
+"首页" = "Home";
+"境外人员办理注册登记" = "Register";
+"点此下载电子证书" = "Click here to download the certificate";
+"审核状态" = "Audit status";
+"未提交资料" = "Uncommitted data";
+"等待审核" = "Pending approval";
+"审核中" = "Audit";
+"审核通过" = "Approved";
+"电子证书可下载" = "Certificates ready";
+"申请被拒绝" = "Not approved";
+"提交登记注册资料" = "Submission of registration information";
+"留言板" = "Leave message";
+"法律法规" = "Laws and Regulations";
+"房山新闻" = "Fangshan News";
+"公示公告" = "Notice";
+"服务指南" = "Guides";
+"温馨提示" = "Reminders";
+"更多" = "More";
+"没有数据" = "No data";
+
+"消息" = "Message";
+"没有消息" = "No message";
+"点击进行刷新" = "Click refresh";
+"刚刚" = "Just now";
+"分钟前" = "mins ago";
+"小时前"= "hours ago";
+"昨天" = "Yestoday";
+
+"发现" = "Discovery";
+"房山旅游文化" = "Fangshan tourism culture";
+"每日一句学中文" = "Learn Chinese every day";
+
+"我的" = "My";
+"手机用户" = "Mobile user";
+"游客" = "Guest";
+"注册登记资料" = "Registration information";
+"信息核销" = "Leave";
+"电子证书" = "Electronic certificate";
+"语言设置" = "Language";
+"用户反馈" = "Feedback";
+"关于我们" = "About us";
+"退出登录" = "Logout";
+"点击这里进行注册/登录" = "Click here to register / login";
+"确定要退出当前账号吗？" = "Are you sure you want to logout the current account?";
+"退出" = "Logout";
+
+"登录" = "Login";
+"手机号" = "Phone number";
+"验证码" = "Code";
+"请输入手机号" = "Please enter your phone number";
+"请输入验证码" = "Please enter your code";
+"手机号格式不正确" = "Incorrect phone number format";
+"获取验证码中" = "Waiting the code";
+"获取成功，验证码将发至您的手机" = "Success, the code will be sent to your phone";
+"验证码为六位数字" = "The code is six digits";
+"验证码错误" = "Code error";
+"获取验证码" = "Get code";
+"秒" = "s";
+"登录成功" = "Login success";
+
+"长度不能少于N位" = "Length cannot be less than %@";
+"登录中" = "Login...";
+
+"基本信息" = "Base Info";
+"本人照片" = "Bareheaded full-face photo";
+"护照照片" = "Passport info page (HK/Mac/Tw pass) photo";
+"国家" = "Country / Region";
+"证件类型" = "Certificates type";
+"身份证" = "Identity";
+"护照" = "Passport";
+"证件号码" = "Certificates number";
+"证件有效期" = "Validity of certificate";
+"人员类型" = "Personnel type";
+"人员地域类型" = "Personnel area type";
+"英文姓" = "Last name";
+"英文名" = "First name";
+"中文名" = "Chinese name";
+"中文名占位符" = "necessary for HKG/MAC/TWN/JPN/PRK/KOR";
+"性别" = "Gender";
+"出生日期" = "Date of birth";
+"出生地" = "Place of birth";
+"职业" = "Occupation";
+"工作机构" = "Working mechanism";
+"本人联系电话" = "My phone number";
+"紧急联系人姓名" = "emergency contact name";
+"紧急联系人的联系电话" = "Emergency contact phone number";
+"请选择..." = "Please select...";
+"标准照片示例" = "Photo sample";
+"从照片库选择" = "Select from photo library";
+"设备不支持照片库功能" = "Device does not support photo library function";
+"拍照" = "Camera";
+"设备不支持拍照功能" = "Device does not support camera function";
+"男" = "Male";
+"女" = "Female";
+"未设置" = "Not set";
+"不能为空" = "Not null";
+"提示" = "Tips";
+"退出之前要保存信息吗？" = "Do you want to save information before exiting?";
+"不保存" = "Not save";
+"保存" = "Save";
+"完成" = "Done";
+"取消" = "Cancel";
+"保存成功" = "Save success";
+"上传照片中" = "Uploading photo...";
+"填写完毕" = "Completed";
+"尚未填写完毕" = "Not yet completed";
+"正在提交，请稍后" = "Submiting, please wait";
+"资料已经成功提交" = "Information has been successfully submitted, please keep an eye on the progress of the audit";
+
+"入境及签证（注）信息" = "Visa (note) information";
+"入境页照片" = "Entry page photo";
+"签证页照片" = "The latest visa photo";
+"签证（注）种类" = "Visa (note) type";
+"签证（注）有效期" = "Visa (note) valid";
+"签证（注）号码" = "Visa (note) number";
+"入境日期" = "Entry date";
+"入境日期占位符" = "For the last time";
+"入境口岸" = "Entry port";
+"入境口岸占位符" = "Entry stamp";
+"停留事由" = "Stay reason";
+"停留有效期" = "Stay valid";
+"停留有效期占位符" = "Before the visa(note) validity";
+
+"住宿信息" = "Accommodation information";
+"入住日期" = "Check-in date";
+"入住日期占位符" = "For this Address";
+"拟离开日期" = "Check-out date";
+"拟离开日期占位符" = "Before the visa(note) validity";
+"我有房主身份证和房屋租赁合同" = "I have landlord identity card and house rental contract";
+"房主身份证照片" = "Landlord identity card photo";
+"房屋租赁合同照片" = "House rental contract photos";
+"张照片" = " photos";
+"详细地址" = "Address";
+"详细地址占位符" = "Exact address including house number";
+"所属派出所" = "Police station";
+"请先选择所属派出所" = "Please select the police station";
+"所属社区" = "Community";
+"住房种类" = "Housing type";
+"房主国家" = "Landlord country / region";
+"房主身份证号" = "Landlord identity";
+"房主中文姓名" = "Landlord name";
+"房主性别" = "Landlord gender";
+"房主联系电话" = "Landlord phone number";
+
+"用户留言" = "Leave message";
+"发送" = "Send";
+"发送成功" = "Sent success";
+"发送失败" = "Sent faild";
+
+"版权所有公司名称" = "Fangshan police station Copyright® ";
+
+"预览电子证件" = "Preview electronic Certificate";
+"下载" = "Download";
+"电子证书图片暂时不能下载" = "Electronic certificate images can not be downloaded for the time being";
+"电子证书还没有准备完毕" = "The certificate is not ready yet";
+"电子证件保存成功" = "Electronic certificate saved successfully";
+
+"离开日期" = "Leave date";
+"离开原因" = "Leave reason";
+"去往目的地" = "Where to go";
+"下一张表" = "Next table";
+"提交" = "Submit";
+"警告" = "Warning";
+"警告确认核销" = "After you leave, the electronic certificate will be cancelled immediately! Do you want to leave?";
+"确认核销" = "Leave";
+"信息核销成功" = "Operation success";
+"当前状态不可核销" = "Current status can not leave";
+
+"正在加载数据" = "Loading";
+"文章详情" = "Article details";
+
+"服务器无响应，请稍后重试" = "Server is not responding. Please try later";
+"检测到有更新的版本，请前往下载" = "An new version has been detected, please download first.";
+"立即下载" = "Download now";

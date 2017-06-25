@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>imageUrl</key>
+		<string></string>
+		<key>title</key>
+		<string>关于征集《那些年，我们一起走过的长走》照片作品的公告</string>
+		<key>summary</key>
+		<string></string>
+		<key>createDate</key>
+		<string>2017-03-28T03:59:00Z</string>
+	</dict>
+	<dict>
+		<key>imageUrl</key>
+		<string></string>
+		<key>title</key>
+		<string>关于印发房山区2017年大货车运输秩序专项行动方案的通知</string>
+		<key>summary</key>
+		<string></string>
+		<key>createDate</key>
+		<string>2017-02-23T03:59:00Z</string>
+	</dict>
+	<dict>
+		<key>imageUrl</key>
+		<string></string>
+		<key>title</key>
+		<string>关于组织开展“疏解整治促提升”专项行动（2017—2020年）的实施意见</string>
+		<key>summary</key>
+		<string></string>
+		<key>createDate</key>
+		<string>2017-02-28T03:59:00Z</string>
+	</dict>
+</array>
+</plist>

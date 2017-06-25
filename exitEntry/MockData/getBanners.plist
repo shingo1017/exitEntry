@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>imageUrl</key>
+		<string>https://timgsa.baidu.com/timg?image&amp;quality=80&amp;size=b9999_10000&amp;sec=1490849289172&amp;di=c75eb60bf24d9862798b0bfc13eabcf2&amp;imgtype=0&amp;src=http%3A%2F%2Fww1.sinaimg.cn%2Flarge%2Fa245d256gw1e7coh5ukxkj20f005h0ty.jpg</string>
+		<key>title</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>imageUrl</key>
+		<string>https://timgsa.baidu.com/timg?image&amp;quality=80&amp;size=b9999_10000&amp;sec=1489922210346&amp;di=7a216469bb23b4adecb1814d37c69467&amp;imgtype=0&amp;src=http%3A%2F%2Fimg.zcool.cn%2Fcommunity%2F017e8757c7cb9f0000012e7e7a5eeb.jpg%40900w_1l_2o_100sh.jpg</string>
+		<key>title</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>imageUrl</key>
+		<string>https://timgsa.baidu.com/timg?image&amp;quality=80&amp;size=b9999_10000&amp;sec=1490517063&amp;di=59c20006cdd6505f551a8f16bb14884d&amp;imgtype=jpg&amp;er=1&amp;src=http%3A%2F%2Fimg.zcool.cn%2Fcommunity%2F01c05657ba8b5d0000012e7ed0d921.jpg%40900w_1l_2o_100sh.jpg</string>
+		<key>title</key>
+		<string></string>
+	</dict>
+</array>
+</plist>
